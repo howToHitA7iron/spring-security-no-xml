@@ -12,6 +12,16 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @EnableWebSecurity
 public class WebSecurityConfig {
 
+	/*
+	 * Spring talks about 4 types of authentication storage mechanisms
+	 * https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/storage.html
+	 * 
+	 * InMemory (used below)
+	 * JDBC Authentication
+	 * Custom data stores
+	 * LDAP
+	 */
+	
 	@Bean
 	public UserDetailsService userDetailsService() {
 		UserDetails user = User.withDefaultPasswordEncoder()

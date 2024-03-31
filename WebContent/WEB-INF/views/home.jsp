@@ -7,7 +7,7 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>Spring Framework and Security Demo</h1>
+	<h1>Spring Framework and Security Demo with No XML</h1>
 
 	<P>Successful login - ${serverTime}.</p>
 

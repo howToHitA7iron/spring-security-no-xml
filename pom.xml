@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sas.demo.spring.mvc</groupId>
-  <artifactId>spring-mvc-example</artifactId>
+  <artifactId>spring-security-no-xml</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>Spring Framework and Security</name>
-  <description>Spring Framework and Security Demo</description>
+  <name>Spring Framework and Security with no XML</name>
+  <description>Spring Framework and Security with no XML Demo</description>
   
     <!-- Add Spring Web and MVC dependencies -->
 	<dependencies>
